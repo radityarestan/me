@@ -1,0 +1,294 @@
+body {
+    background-color: #222222;
+    font-family: 'Montserrat';
+}
+
+#main-page {
+    background-image: url("../images/bg_image.png");
+}
+
+.my-nav {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.my-container-1 {
+    margin: 100px 100px;
+}
+
+.my-container-2 {
+    margin: 100px 100px 20px 100px
+}
+
+.my-self {
+    margin-bottom: 20px;
+}
+
+.circle-foto {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: white;
+    border-color: #64B5F6;
+    border-width: 1vw;
+    border-style: solid;
+    content: url("../images/radit.png");
+}
+
+.greeting-1 {
+    font-size: 100px;
+    color: white;
+}
+
+.greeting-2 {
+    font-size: 50px;
+    color: white;
+}
+
+#greeting-name {
+    color: #DF186C;
+    font-weight: bold;
+}
+
+.skill-desc-1 {
+    font-size: 92px;
+    color:#DF186C;
+}
+
+.skill-desc-2 {
+    font-size: 92px;
+    color:white;
+    background-color: #DF186C;
+}
+
+.skill-programming {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+    background-color: white;
+    border-color: #64B5F6;
+    border-width: 1.5vw;
+    border-style: solid;
+}
+
+#skill-1 {
+    content: url("../images/python.png");
+}
+
+#skill-2 {
+    content: url("../images/java.png");
+}
+
+#skill-3 {
+    content: url("../images/flutter.png");
+}
+
+.message {
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.my-skill {
+    margin-top: 90px;
+    margin-bottom: 120px;
+    padding: 0px 150px;
+}
+
+
+
+.my-card {
+    margin-bottom: 20px;
+    border-color: #DF186C;
+    border-style: solid;
+    border-width: 5px;
+}
+.my-button {
+    background-color: #64B5F6;
+}
+
+
+
+.my-project {
+    width: 500px;
+    height: 500px;
+    border-color: #64B5F6;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 10px;
+    margin-bottom: 20px;
+}
+
+#project-coming-soon {
+    border-color: #DF186C;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    content: url('../images/calculator.png');
+}
+
+.project-name {
+    width: 320px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 50px;
+    color: #64B5F6;
+    text-align: center;
+}
+
+.project-desc {
+    margin: 20px;
+    color: white;
+    text-align: justify;
+}
+
+
+
+.my-photo {
+    content: url("../images/radit.png");
+}
+
+.medsos-1 {
+    width: 70px;
+    height: 70px;
+    content: url("../images/facebook.png");
+}
+
+.medsos-2 {
+    width: 75px;
+    height: 75px;
+    content: url("../images/linkedin.png");
+}
+
+.medsos-3 {
+    width: 75px;
+    height: 75px;
+    content: url("../images/gmail.png");
+}
+
+.about-me {
+    font-size: 70px;
+    font-weight: bold;
+    background-color: white;
+    color: #64B5F6;
+    margin-bottom: 30px;
+}
+
+.headline {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #64B5F6;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.self-description {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+      margin: auto;
+    }
+    .my-container-1 {
+        margin: 50px 50px;
+    }
+    
+    .my-container-2 {
+        margin: 50px 50px 20px 50px
+    }
+    .my-nav {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .greeting-1 {
+        text-align: center;
+    }
+    .greeting-2 {
+        text-align: center;
+    }
+
+    #greeting-name {
+     font-size: 25px;   
+    }
+
+    .circle-foto {
+        width: 250px;
+        height: 250px;
+    }
+    .skill-programming {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .skill-desc-1 {
+        font-size: 50px;
+    }
+    .skill-desc-2 {
+        font-size: 50px;
+    }
+    
+    .circle-foto {
+        margin: auto;
+    }
+    .my-skill {
+        padding: 0px 0px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .my-project {
+        width: 280px;
+        height: 500px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .project-name {
+        width: 150px;
+        height: 50px;
+        margin: 10px;
+        font-size: 25px;
+    }
+    .project-desc {
+        text-align: left;
+    }
+
+    #project-coming-soon {
+        height: 250px;
+        font-size: 40px;
+        vertical-align: center;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+
+    .about-me {
+        text-align: center;
+    }
+    .headline {
+        text-align: center;
+    }
+    .my-photo {
+        height: 70vw;
+    }
+  }
