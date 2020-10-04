@@ -236,12 +236,15 @@ body {
         width: 20vw;
         height: 20vw;
     }
-
+    .skill-desc {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .skill-desc-1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .skill-desc-2 {
-        font-size: 50px;
+        font-size: 40px;
     }
     
     .circle-foto {
@@ -256,7 +259,7 @@ body {
     .my-project {
         width: 280px;
         height: 500px;
-        border-radius: 5%;
+        border-radius: 1%;
     }
 
     .logo {
@@ -285,9 +288,13 @@ body {
 
     .about-me {
         text-align: center;
+        font-size: 60px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .headline {
         text-align: center;
+        font-size: 25px;
     }
     .my-photo {
         height: 70vw;
